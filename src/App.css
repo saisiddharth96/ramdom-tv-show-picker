@@ -1,0 +1,415 @@
+@media (min-width: 1300px)  {
+  .App {
+    text-align: center;
+  }
+
+  .App-header {
+    background-color: rgba(0, 0, 0);
+    height: 220px;
+    padding: 20px;
+    color: white;
+  }
+
+  .App-title {
+    font-size: 3em;
+  }
+
+  .App-subtitle {
+    font-size: 1.5em;
+  }
+
+  .App-intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 15rem 0 15rem;
+  }
+
+  .Input-Name {
+    padding-right: 3rem;
+  }
+
+  .TV-Show-Input {
+    padding: 1rem;
+    width: 20%;
+    text-align: center;
+  }
+
+  .Name-Input-Placeholder {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .modal-container-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modal-container-div p {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .modal-button {
+    align-content: center;
+    width: 40%;
+    height: 4.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: white;
+    font-size: 2.5em;
+  }
+
+  .modal-button:hover {
+    color: rgba(0, 0, 0);
+    background-color: white;
+    border-color: rgba(0, 0, 0);
+  }
+
+  .Calculate-Random-Show {
+    align-content: center;
+    width: 20%;
+    height: 5%;
+    color: white;
+    background-color: rgba(0, 0, 0);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: white;
+    font-size: 2.5em;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+
+  .Calculate-Random-Show:hover {
+    color: rgba(0, 0, 0);
+    background-color: white;
+    border-color: rgba(0, 0, 0);
+  }
+
+  .transition-enter {
+    transform: scale(0);
+  }
+  .transition-enter-active {
+    transform: scale(1);
+    transition: transform 500ms ease-in-out;
+  }
+}
+
+@media (min-width : 700px) and (max-width: 1299px){
+  .App-header {
+    background-color: rgba(0, 0, 0);
+    height: 180px;
+    padding: 20px;
+    color: white;
+  }
+
+  .App {
+    text-align: center;
+  }
+
+  .App-subtitle {
+    font-size: 1.3em;
+  }
+
+  .App-intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 5rem 0 5rem;
+  }
+
+  .Input-Name {
+    padding-right: 3rem;
+  }
+
+  .TV-Show-Input {
+    padding: 1rem;
+    width: 20%;
+    text-align: center;
+  }
+
+  .Name-Input-Placeholder {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .modal-container-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modal-container-div p {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .modal-button {
+    align-content: center;
+    width: 40%;
+    height: 4.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: white;
+    font-size: 2.5em;
+  }
+
+  .modal-button:hover {
+    color: rgba(0, 0, 0);
+    background-color: white;
+    border-color: rgba(0, 0, 0);
+  }
+
+  .Calculate-Random-Show {
+    align-content: center;
+    width: 200px;
+    height: 75px;
+    color: white;
+    background-color: rgba(0, 0, 0);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: white;
+    font-size: 2em;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+
+  .Calculate-Random-Show:hover {
+    color: rgba(0, 0, 0);
+    background-color: white;
+    border-color: rgba(0, 0, 0);
+  }
+
+  .transition-enter {
+    transform: scale(0);
+  }
+  .transition-enter-active {
+    transform: scale(1);
+    transition: transform 500ms ease-in-out;
+  }
+}
+
+@media (min-width : 481px) and (max-width: 699px){
+  .App {
+    text-align: center;
+  }
+
+  .App-header {
+    background-color: rgba(0, 0, 0);
+    padding: 20px;
+
+    color: white;
+  }
+
+  .App-title {
+    font-size: 2em;
+  }
+
+  .App-subtitle {
+    font-size: 1.3em;
+  }
+
+  .App-intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 2rem 0 2rem;
+  }
+
+  .Input-Name {
+    padding-right: 3rem;
+    font-size: 1.1em;
+  }
+
+  .TV-Show-Input {
+    padding: 1rem;
+    width: 125px;
+    text-align: center;
+  }
+
+  .Name-Input-Placeholder {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .modal-container-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modal-container-div p {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .modal-button {
+    align-content: center;
+    width: 40%;
+    height: 4.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: white;
+    font-size: 2.5em;
+  }
+
+  .modal-button:hover {
+    color: rgba(0, 0, 0);
+    background-color: white;
+    border-color: rgba(0, 0, 0);
+  }
+
+  .Calculate-Random-Show {
+    align-content: center;
+    width: 175px;
+    height: 65px;
+    color: white;
+    background-color: rgba(0, 0, 0);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: white;
+    font-size: 2em;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+
+  .Calculate-Random-Show:hover {
+    color: rgba(0, 0, 0);
+    background-color: white;
+    border-color: rgba(0, 0, 0);
+  }
+
+  .transition-enter {
+    transform: scale(0);
+  }
+  .transition-enter-active {
+    transform: scale(1);
+    transition: transform 500ms ease-in-out;
+  }
+}
+
+@media (min-width : 220px) and (max-width : 480px) {
+  .App {
+    text-align: center;
+    align-content: center;
+  }
+
+  .App-header {
+    background-color: rgba(0, 0, 0);
+    height: 270px;
+    padding: 20px;
+    color: white;
+  }
+
+  .App-title {
+    font-size: 2em;
+  }
+
+  .App-subtitle {
+    font-size: 1em;
+    padding-top: 1rem;
+  }
+
+  .App-intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* padding: 2rem 25rem 0 25rem; */
+    padding: 1rem .5rem 0 .5rem;
+  }
+
+  .Input-Name {
+    font-size: 1.2em;
+    padding-right: .5rem;
+  }
+
+  .TV-Show-Input {
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+
+    padding: 1rem;
+    width: 125px;
+  }
+
+  .Name-Input-Placeholder {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .modal-container-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modal-container-div p {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .modal-button {
+    align-content: center;
+    width: 50%;
+    height: 3.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: white;
+    font-size: 1.5em;
+  }
+
+  .modal-button:hover {
+    color: rgba(0, 0, 0);
+    background-color: white;
+    border-color: rgba(0, 0, 0);
+  }
+
+  .Calculate-Random-Show {
+    align-content: center;
+    width: 40%;
+    height: 5%;
+    color: white;
+    background-color: rgba(0, 0, 0);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: white;
+    font-size: 1.5em;
+    padding: .8rem;
+    margin-top: 2rem;
+  }
+
+  .Calculate-Random-Show:hover {
+    color: rgba(0, 0, 0);
+    background-color: white;
+    border-color: rgba(0, 0, 0);
+  }
+
+  .transition-enter {
+    transform: scale(0);
+  }
+  .transition-enter-active {
+    transform: scale(1);
+    transition: transform 500ms ease-in-out;
+  }
+}
